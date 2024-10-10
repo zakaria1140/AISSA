@@ -1,0 +1,60 @@
+
+<html>
+<head>
+<title>LOGIN PANEL</title>
+<style>
+h1{text-align: center;}
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*::before
+*::after{
+box-sizing: inherit;
+margin: 0;
+padding: 0;
+}
+body{
+   align-items: center;
+   background: linear-gradient(320deg,#79a8dd,#54554c,#63c9b4); }
+form{text-align: center;}
+a:link{ 
+    color:aqua;
+}
+a:visited{
+    color:black;
+}
+a:hover{color: rgb(40, 6, 163);}
+a:active{color: red;}
+a#link-1:link{background: red;
+padding: 10px;
+border-radius: 25px;}
+hr{color: black;}
+</style>
+</head>
+<body>
+<h1>LOGIN PANEL</h1>
+<hr size="5" width="1000" leingth="50">
+<form border="2">
+    <fieldset>
+        <legend><h3>profile info</h3></legend>
+        <div cLass="input-box animation" style="--i:1; --J:22">
+                <label for="">USERNAME</label><br>
+                <input type="text" required>
+                <i class='bx bxs-user'></i>
+        </div>
+        <div cLass="input-box animation" style="--i:2; --J:23">
+                 <label for=""><em>PASSWORD</em></label><br>
+                <input type="password" required>
+                 <i class='bx bxs-lock-alt '></i>
+        </div>
+                <button type="submit" class="btn anination" style="--i:3; --j:24">Login</button>
+                 <div class="linkxt animation" style---$:5; --J:25>
+                <p>IDon't have an account?<a href="#" class="register-link"><a href="page.html">SIGN UP</a></a></p>
+                </div>
+
+    </fieldset>
+</form>
+</body>
+</html>

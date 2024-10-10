@@ -1,0 +1,17 @@
+html{padding: 8%;
+    background: linear-gradient(320deg,#79a8dd,#54554c,#63c9b4); }
+
+
+h1{text-align:center;color: #ffffff;}
+h2{text-align:center ;color:rgba(7, 7, 7, 0.87);}
+h3{text-align: center;color: #1e1e25;}
+
+.img{padding: 8px;
+
+}
+
+.background{
+    background-size: 100% 100% ;
+    background-image: url();
+    background-repeat: no-repeat;
+}
